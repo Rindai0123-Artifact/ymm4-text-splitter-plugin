@@ -10,10 +10,12 @@
 - **配置設定対応**: 左・中・右 / 上・中・下 の揃え設定を自動検知して位置合わせを行います。
 - **プロジェクト自動検出**: 開いているYMM4プロジェクト（.ymmp）を自動で読み込みます。
 
-## インストール方法
-1. [Releases](https://github.com/Rindai0123-Artifact/ymm4-text-splitter-plugin/releases) から最新の **`TextAutoSplitPlugin_v1.1.0.zip`** をダウンロードします。
-2. ゆっくりMovieMaker4を起動し、ダウンロードした **zipファイルをYMM4のウィンドウに直接ドラッグ＆ドロップ** してください。
+## インストール方法（推奨）
+1. [Releases](https://github.com/Rindai0123-Artifact/ymm4-text-splitter-plugin/releases) から最新の **`TextAutoSplit.ymme`** をダウンロードします。
+2. ダウンロードした **`TextAutoSplit.ymme` をゆっくりMovieMaker4のウィンドウに直接ドラッグ＆ドロップ** してください。
 3. インストール確認画面が表示されるので「OK」を押して、YMM4を再起動すれば導入完了です。
+
+※ zipファイルを解凍して `plugin` フォルダに入れる従来の方法も利用可能です。
 
 ## 使い方
 1. YMM4でテキストアイテムを選択し、プロジェクトファイルを保存（Ctrl+S）します。
