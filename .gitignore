@@ -1,0 +1,11 @@
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+build_result.txt
+publish/
+*.zip
+*.bak
