@@ -1,7 +1,7 @@
 using System;
 using YukkuriMovieMaker.Plugin;
 
-namespace SegmentEffectPlugin
+namespace SegmentEffectPlugin.UI
 {
     /// <summary>
     /// メニューの「ツール」に表示されるエントリポイント

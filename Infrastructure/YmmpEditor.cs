@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Text.Json.Nodes;
 
-namespace SegmentEffectPlugin
+namespace SegmentEffectPlugin.Infrastructure
 {
     /// <summary>
     /// テキストアイテムの情報（プロジェクトファイルから抽出）

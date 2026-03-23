@@ -2,7 +2,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 
-namespace SegmentEffectPlugin;
+namespace SegmentEffectPlugin.Infrastructure;
 
 /// <summary>
 /// YMM4で現在開いているプロジェクトの情報を取得するヘルパー

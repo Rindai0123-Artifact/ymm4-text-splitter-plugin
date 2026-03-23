@@ -1,7 +1,7 @@
 using System.Windows.Controls;
 using Microsoft.Win32;
 
-namespace SegmentEffectPlugin
+namespace SegmentEffectPlugin.UI
 {
     public partial class SegmentEffectView : UserControl
     {

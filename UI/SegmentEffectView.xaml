@@ -1,11 +1,12 @@
-<UserControl x:Class="SegmentEffectPlugin.SegmentEffectView"
+<UserControl x:Class="SegmentEffectPlugin.UI.SegmentEffectView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:SegmentEffectPlugin"
+             xmlns:local="clr-namespace:SegmentEffectPlugin.UI"
+             xmlns:conv="clr-namespace:SegmentEffectPlugin.Converters"
              MinWidth="280">
 
     <UserControl.Resources>
-        <local:BoolToVisConverter x:Key="BoolToVis"/>
+        <conv:BoolToVisConverter x:Key="BoolToVis"/>
 
         <!-- カラー -->
         <SolidColorBrush x:Key="BG"      Color="#18181B"/>
@@ -183,11 +184,11 @@
 
                     <!-- モード切替 -->
                     <WrapPanel Margin="0,0,0,10">
-                        <RadioButton Content="行で分割" IsChecked="{Binding SplitMode, Converter={local:IntToBoolConverter}, ConverterParameter=0}"
+                        <RadioButton Content="行で分割" IsChecked="{Binding SplitMode, Converter={conv:IntToBoolConverter}, ConverterParameter=0}"
                                      GroupName="Mode" Foreground="{StaticResource FG}" Margin="0,0,14,0" FontSize="12"/>
-                        <RadioButton Content="文字数で分割" IsChecked="{Binding SplitMode, Converter={local:IntToBoolConverter}, ConverterParameter=1}"
+                        <RadioButton Content="文字数で分割" IsChecked="{Binding SplitMode, Converter={conv:IntToBoolConverter}, ConverterParameter=1}"
                                      GroupName="Mode" Foreground="{StaticResource FG}" Margin="0,0,14,0" FontSize="12"/>
-                        <RadioButton Content="文字を選択して分割" IsChecked="{Binding SplitMode, Converter={local:IntToBoolConverter}, ConverterParameter=2}"
+                        <RadioButton Content="文字を選択して分割" IsChecked="{Binding SplitMode, Converter={conv:IntToBoolConverter}, ConverterParameter=2}"
                                      GroupName="Mode" Foreground="{StaticResource FG}" FontSize="12"/>
                     </WrapPanel>
 

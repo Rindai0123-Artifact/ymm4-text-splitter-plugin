@@ -8,7 +8,9 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using System.Collections.Generic;
 
-namespace SegmentEffectPlugin
+using SegmentEffectPlugin.Infrastructure;
+
+namespace SegmentEffectPlugin.UI
 {
     public class SegmentEffectViewModel : INotifyPropertyChanged
     {

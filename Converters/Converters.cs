@@ -4,7 +4,7 @@ using System.Windows;
 using System.Windows.Data;
 using System.Windows.Markup;
 
-namespace SegmentEffectPlugin
+namespace SegmentEffectPlugin.Converters
 {
     /// <summary>
     /// int値とboolを変換するコンバーター（RadioButton用）
